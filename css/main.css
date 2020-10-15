@@ -524,6 +524,19 @@ Fifthecolor: 000000;//black
     padding: 0;
 }
 
+@media (min-width: 992px) {
+    .img__container {
+        position: relative;
+        overflow: hidden;
+    }
+    .img__container img {
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        width: 0;
+    }
+}
+
 .choose-us .info:last-child {
     background-color: #08526d;
     color: #FFF;
